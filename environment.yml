@@ -1,0 +1,19 @@
+name: ml-labs-1
+channels:
+  - anaconda
+  - anaconda-fusion
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - numpy
+  - scipy
+  - seaborn
+  - matplotlib
+  - pandas
+  - pymc>=5
+  - python=3.9
+  - jupyter
+  - ipykernel
+
+prefix: /Users/peterkiss/anaconda3/envs/ml-labs
