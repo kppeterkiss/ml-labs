@@ -1,4 +1,4 @@
-name: ml-labs-1
+name: ml-labs-pymc
 channels:
   - anaconda
   - anaconda-fusion
@@ -11,12 +11,10 @@ dependencies:
   - seaborn
   - matplotlib
   - pandas
-  - pymc>=5
-  - python=3.9
+  - pymc3
+  - python=3.7
   - jupyter
   - ipykernel
   - scikit-learn
-  - pgmpy
-  - opt_einsum
 
 prefix: /Users/peterkiss/anaconda3/envs/ml-labs
