@@ -1,10 +1,12 @@
-name: ml-labs-1
+name: ml-labs
 channels:
   - anaconda
   - anaconda-fusion
   - defaults
   - conda-forge
+  - ankurankan
 dependencies:
+  - python=3.9
   - jupyter
   - numpy
   - scipy
@@ -12,11 +14,9 @@ dependencies:
   - matplotlib
   - pandas
   - pymc>=5
-  - python=3.9
   - jupyter
   - ipykernel
   - scikit-learn
   - pgmpy
   - opt_einsum
 
-prefix: /Users/peterkiss/anaconda3/envs/ml-labs

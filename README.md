@@ -36,7 +36,7 @@ There are two ways to solve this issues:
 - write you environment file by hand, only adding the packages, that you actually import.
 
 
-### Recreating  environment feom ```environment.yml```
+### Recreating  environment from ```environment.yml```
 
 
 ```
@@ -45,3 +45,6 @@ conda env create -f environment.yml
 after this you can add the same way to PyCharm as above. 
 
 tlib pandas "pymc>=5"
+
+### delete env:
+```conda remove -n ml-labs --all```
