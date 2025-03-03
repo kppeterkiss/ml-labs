@@ -8,8 +8,8 @@ channels:
 dependencies:
   - python=3.9
   - jupyter
-  - numpy
-  - scipy
+  - numpy<1.26
+  - scipy<1.13
   - seaborn
   - matplotlib
   - pandas
