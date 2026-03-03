@@ -1,4 +1,4 @@
-name: ml-labs-updated
+name: ml-labs
 channels:
   - anaconda
   - anaconda-fusion
@@ -6,14 +6,14 @@ channels:
   - conda-forge
   - ankurankan
 dependencies:
-  - python
+  - python=3.9
   - jupyter
-  - numpy
-  - scipy
+  - numpy<1.26
+  - scipy<1.13
   - seaborn
   - matplotlib
   - pandas
-  - pymc
+  - pymc>=5
   - jupyter
   - ipykernel
   - scikit-learn
