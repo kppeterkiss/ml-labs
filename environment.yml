@@ -19,4 +19,6 @@ dependencies:
   - scikit-learn
   - pgmpy
   - opt_einsum
+  - pip:
+      - pyro-ppl
 
