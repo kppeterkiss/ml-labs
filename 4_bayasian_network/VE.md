@@ -698,11 +698,3 @@ VE just chooses an order to carry out the sums efficiently.
 
 ---
 
-# 20. If you want, next I can do one of these:
-
-1. **the same example as factor tables step-by-step**, more visually  
-2. **a numeric VE example with evidence**, like `P(G | L=Good)`  
-3. **your fruit-size-tasty network numerically**, using the learned CPDs  
-4. **show why elimination order matters**, with intermediate factor sizes
-
-If I were teaching this in a notebook, I’d recommend next doing **`P(G | L=Good)`**, because then VE becomes more interesting than the direct parent-conditioning case.
