@@ -1,4 +1,4 @@
-## Great — let’s do a full numeric Variable Elimination example
+## Full numeric Variable Elimination example
 
 I’ll use the **student network** and compute:
 
